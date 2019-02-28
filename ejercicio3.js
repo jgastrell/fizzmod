@@ -13,3 +13,5 @@ const mapCustomizado = (arr, fn) => {
 console.log(mapCustomizado(numeros,numero=>numero+1)) //[2,3,4,5]
 console.log(mapCustomizado(numeros,(numero,indice)=>numero+indice)) //[1,3,5,7]
 console.log(mapCustomizado(numeros,numero=>{})) //[undefined,undefined,undefined,undefined]
+
+
